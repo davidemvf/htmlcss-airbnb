@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+.img{
+  height: 600px;
+  width: 100%;
+  position: relative;
+  opacity: 0.9;
+  border: 5px solid white;
+  background-image: url("immagini/london.jpg");
+
+}
+
+.img_2{
+  height: 600px;
+  width: 100%;
+  position: relative;
+  opacity: 0.9;
+  border: 5px solid white;
+  background-image: url("immagini/tokyo.jpg");
+  background-size: cover;
+}
+
+.img_3{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    opacity: 0.7; 
+    border: 5px solid white;
+    background-image: url("immagini/copenaghen.jpg");
+    background-size: cover;
+
+}
+
+span{
+  position: absolute;
+  color: white;
+  font-size: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
